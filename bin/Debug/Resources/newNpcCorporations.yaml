@@ -1,0 +1,1106 @@
+0:
+  id: 0
+  name: 加达里合众国
+  isGroup: true
+  subs:
+  - id: 1000002
+    name: CBD社团
+    isGroup: false
+    subs: 
+  - id: 1000024
+    name: CBD销售部
+    isGroup: false
+    subs: 
+  - id: 1000031
+    name: CEO合作组织
+    isGroup: false
+    subs: 
+  - id: 1000300
+    name: PKN星际集团
+    isGroup: false
+    subs: 
+  - id: 1000299
+    name: PKN暗码
+    isGroup: false
+    subs: 
+  - id: 1000005
+    name: 三岛集团
+    isGroup: false
+    subs: 
+  - id: 1000233
+    name: 专业干预
+    isGroup: false
+    subs: 
+  - id: 1000239
+    name: 伊塔拉直接行动
+    isGroup: false
+    subs: 
+  - id: 1000238
+    name: 伊苏亚战术分队
+    isGroup: false
+    subs: 
+  - id: 1000237
+    name: 佩克昂突击队
+    isGroup: false
+    subs: 
+  - id: 1000014
+    name: 佩克昂集团
+    isGroup: false
+    subs: 
+  - id: 1000012
+    name: 倒顶集团
+    isGroup: false
+    subs: 
+  - id: 1000040
+    name: 共和秩序局
+    isGroup: false
+    subs: 
+  - id: 1000036
+    name: 内部安全
+    isGroup: false
+    subs: 
+  - id: 1000009
+    name: 加达里后勤部
+    isGroup: false
+    subs: 
+  - id: 1000033
+    name: 加达里商业法庭
+    isGroup: false
+    subs: 
+  - id: 1000026
+    name: 加达里建筑集团
+    isGroup: false
+    subs: 
+  - id: 1000028
+    name: 加达里无限基金集团
+    isGroup: false
+    subs: 
+  - id: 1000035
+    name: 加达里海军
+    isGroup: false
+    subs: 
+  - id: 1000015
+    name: 加达里钢铁集团
+    isGroup: false
+    subs: 
+  - id: 1000010
+    name: 卡拉吉塔集团
+    isGroup: false
+    subs: 
+  - id: 1000284
+    name: 合众国军事储备处
+    isGroup: false
+    subs: 
+  - id: 1000261
+    name: 合众国和平卫士
+    isGroup: false
+    subs: 
+  - id: 1000180
+    name: 合众国护卫军
+    isGroup: false
+    subs: 
+  - id: 1000032
+    name: 商业俱乐部
+    isGroup: false
+    subs: 
+  - id: 1000029
+    name: 国家星域银行
+    isGroup: false
+    subs: 
+  - id: 1000034
+    name: 国家档案所
+    isGroup: false
+    subs: 
+  - id: 1000167
+    name: 国立军事学院
+    isGroup: false
+    subs: 
+  - id: 1000213
+    name: 奥森监视者
+    isGroup: false
+    subs: 
+  - id: 1000039
+    name: 家庭保安公司
+    isGroup: false
+    subs: 
+  - id: 1000044
+    name: 应用知识学院
+    isGroup: false
+    subs: 
+  - id: 1000038
+    name: 异株湖安全部队
+    isGroup: false
+    subs: 
+  - id: 1000019
+    name: 异株湖集团
+    isGroup: false
+    subs: 
+  - id: 1000022
+    name: 推进动力集团
+    isGroup: false
+    subs: 
+  - id: 1000025
+    name: 斯库维塔集团
+    isGroup: false
+    subs: 
+  - id: 1000236
+    name: 暴风力量
+    isGroup: false
+    subs: 
+  - id: 1000018
+    name: 梯队娱乐公司
+    isGroup: false
+    subs: 
+  - id: 1000007
+    name: 波斯矿业股份
+    isGroup: false
+    subs: 
+  - id: 1000006
+    name: 深核矿业公司
+    isGroup: false
+    subs: 
+  - id: 1000030
+    name: 现代金融
+    isGroup: false
+    subs: 
+  - id: 1000003
+    name: 疾速快递
+    isGroup: false
+    subs: 
+  - id: 1000008
+    name: 矿钻集团
+    isGroup: false
+    subs: 
+  - id: 1000208
+    name: 祖玛利机动部队
+    isGroup: false
+    subs: 
+  - id: 1000045
+    name: 科学及贸易学会
+    isGroup: false
+    subs: 
+  - id: 1000235
+    name: 科金恩风险控制
+    isGroup: false
+    subs: 
+  - id: 1000240
+    name: 科马努执行者
+    isGroup: false
+    subs: 
+  - id: 1000041
+    name: 空间航线巡管局
+    isGroup: false
+    subs: 
+  - id: 1000017
+    name: 纳基维集团
+    isGroup: false
+    subs: 
+  - id: 1000042
+    name: 维克米和平工业
+    isGroup: false
+    subs: 
+  - id: 1000011
+    name: 维克米集团
+    isGroup: false
+    subs: 
+  - id: 1000004
+    name: 耶利集团
+    isGroup: false
+    subs: 
+  - id: 1000043
+    name: 联合警备队
+    isGroup: false
+    subs: 
+  - id: 1000037
+    name: 莱戴护卫服务公司
+    isGroup: false
+    subs: 
+  - id: 1000020
+    name: 莱戴集团
+    isGroup: false
+    subs: 
+  - id: 1000214
+    name: 萨托达特遣队
+    isGroup: false
+    subs: 
+  - id: 1000027
+    name: 行家住宅公司
+    isGroup: false
+    subs: 
+  - id: 1000023
+    name: 行家物流公司
+    isGroup: false
+    subs: 
+  - id: 1000016
+    name: 载诺集团
+    isGroup: false
+    subs: 
+  - id: 1000013
+    name: 速装工业
+    isGroup: false
+    subs: 
+  - id: 1000232
+    name: 金商之剑
+    isGroup: false
+    subs: 
+  - id: 1000021
+    name: 零重力研究公司
+    isGroup: false
+    subs: 
+  - id: 1000234
+    name: 鬼棒旅团
+    isGroup: false
+    subs: 
+1:
+  id: 1
+  name: '米玛塔尔共和国 '
+  isGroup: true
+  subs:
+  - id: 1000255
+    name: 伊勒提游骑兵
+    isGroup: false
+    subs: 
+  - id: 1000047
+    name: 克鲁夏部族
+    isGroup: false
+    subs: 
+  - id: 1000259
+    name: 克鲁夏隐秘行动队
+    isGroup: false
+    subs: 
+  - id: 1000253
+    name: 克鲁法军团
+    isGroup: false
+    subs: 
+  - id: 1000170
+    name: 共和军事学院
+    isGroup: false
+    subs: 
+  - id: 1000052
+    name: 共和国司法部
+    isGroup: false
+    subs: 
+  - id: 1000263
+    name: 共和国指挥部
+    isGroup: false
+    subs: 
+  - id: 1000171
+    name: 共和大学
+    isGroup: false
+    subs: 
+  - id: 1000054
+    name: 共和安全局
+    isGroup: false
+    subs: 
+  - id: 1000051
+    name: 共和舰队
+    isGroup: false
+    subs: 
+  - id: 1000286
+    name: 共和舰队军械处
+    isGroup: false
+    subs: 
+  - id: 1000050
+    name: 共和议会
+    isGroup: false
+    subs: 
+  - id: 1000257
+    name: 四十九敢死队
+    isGroup: false
+    subs: 
+  - id: 1000060
+    name: 土产公司
+    isGroup: false
+    subs: 
+  - id: 1000058
+    name: 埃菲尔公司
+    isGroup: false
+    subs: 
+  - id: 1000059
+    name: 塞克斯金发展公司
+    isGroup: false
+    subs: 
+  - id: 1000258
+    name: 塞卡尔远征军
+    isGroup: false
+    subs: 
+  - id: 1000053
+    name: 市政管理局
+    isGroup: false
+    subs: 
+  - id: 1000251
+    name: 布鲁特先锋
+    isGroup: false
+    subs: 
+  - id: 1000049
+    name: 布鲁特部族
+    isGroup: false
+    subs: 
+  - id: 1000172
+    name: 帕特工学院
+    isGroup: false
+    subs: 
+  - id: 1000057
+    name: 无限创造
+    isGroup: false
+    subs: 
+  - id: 1000056
+    name: 核心局面公司
+    isGroup: false
+    subs: 
+  - id: 1000254
+    name: 米克拉姆卡突击队
+    isGroup: false
+    subs: 
+  - id: 1000055
+    name: 米玛塔尔矿业联合体
+    isGroup: false
+    subs: 
+  - id: 1000252
+    name: 维洛奇亚战斗后勤队
+    isGroup: false
+    subs: 
+  - id: 1000048
+    name: 维洛奇亚部族
+    isGroup: false
+    subs: 
+  - id: 1000062
+    name: 罗述集团
+    isGroup: false
+    subs: 
+  - id: 1000218
+    name: 胡斯卡之环
+    isGroup: false
+    subs: 
+  - id: 1000061
+    name: 自由扩张集团
+    isGroup: false
+    subs: 
+  - id: 1000220
+    name: 萨玛塔克古恩
+    isGroup: false
+    subs: 
+  - id: 1000256
+    name: 赛毕斯托工兵连
+    isGroup: false
+    subs: 
+  - id: 1000046
+    name: 赛毕斯托部族
+    isGroup: false
+    subs: 
+  - id: 1000182
+    name: 部族解放力量
+    isGroup: false
+    subs: 
+  - id: 1000219
+    name: 隆哈达自由护卫军
+    isGroup: false
+    subs: 
+2:
+  id: 2
+  name: '艾玛帝国 '
+  isGroup: true
+  subs:
+  - id: 1000070
+    name: HZO精炼集团
+    isGroup: false
+    subs: 
+  - id: 1000067
+    name: 佐洱父子集团
+    isGroup: false
+    subs: 
+  - id: 1000224
+    name: 光明圣火
+    isGroup: false
+    subs: 
+  - id: 1000082
+    name: 内务府
+    isGroup: false
+    subs: 
+  - id: 1000080
+    name: 军务部
+    isGroup: false
+    subs: 
+  - id: 1000075
+    name: 努图拉集团
+    isGroup: false
+    subs: 
+  - id: 1000087
+    name: 卡多尔家族
+    isGroup: false
+    subs: 
+  - id: 1000229
+    name: 卡莫小屋
+    isGroup: false
+    subs: 
+  - id: 1000081
+    name: 国土评估局
+    isGroup: false
+    subs: 
+  - id: 1000223
+    name: 圣徒兄弟会
+    isGroup: false
+    subs: 
+  - id: 1000091
+    name: 塔什蒙贡家族
+    isGroup: false
+    subs: 
+  - id: 1000064
+    name: 天主凝聚会
+    isGroup: false
+    subs: 
+  - id: 1000071
+    name: 天赋植体公司
+    isGroup: false
+    subs: 
+  - id: 1000085
+    name: 宫务大臣
+    isGroup: false
+    subs: 
+  - id: 1000207
+    name: 布拉吉勇士
+    isGroup: false
+    subs: 
+  - id: 1000225
+    name: 帕拉丁侦察连
+    isGroup: false
+    subs: 
+  - id: 1000179
+    name: 帝国十字军第二十四军团
+    isGroup: false
+    subs: 
+  - id: 1000166
+    name: 帝国学院
+    isGroup: false
+    subs: 
+  - id: 1000198
+    name: 帝国守卫者
+    isGroup: false
+    subs: 
+  - id: 1000065
+    name: 帝国总装部
+    isGroup: false
+    subs: 
+  - id: 1000283
+    name: 帝国战争后备处
+    isGroup: false
+    subs: 
+  - id: 1000078
+    name: 帝国议长专团
+    isGroup: false
+    subs: 
+  - id: 1000072
+    name: 帝国运输
+    isGroup: false
+    subs: 
+  - id: 1000069
+    name: 杜厦铸造
+    isGroup: false
+    subs: 
+  - id: 1000089
+    name: 柯埃佐家族
+    isGroup: false
+    subs: 
+  - id: 1000092
+    name: 民事法庭
+    isGroup: false
+    subs: 
+  - id: 1000228
+    name: 泰罗曼军团
+    isGroup: false
+    subs: 
+  - id: 1000086
+    name: 皇室专署集团
+    isGroup: false
+    subs: 
+  - id: 1000206
+    name: 皇家枪骑兵
+    isGroup: false
+    subs: 
+  - id: 1000093
+    name: 神学理事会
+    isGroup: false
+    subs: 
+  - id: 1000230
+    name: 红银之手
+    isGroup: false
+    subs: 
+  - id: 1000066
+    name: 维鲜集团
+    isGroup: false
+    subs: 
+  - id: 1000074
+    name: 联合收割
+    isGroup: false
+    subs: 
+  - id: 1000079
+    name: 艾玛内政部
+    isGroup: false
+    subs: 
+  - id: 1000083
+    name: 艾玛商管局
+    isGroup: false
+    subs: 
+  - id: 1000205
+    name: 艾玛圣殿骑士
+    isGroup: false
+    subs: 
+  - id: 1000063
+    name: 艾玛建设
+    isGroup: false
+    subs: 
+  - id: 1000084
+    name: 艾玛海军
+    isGroup: false
+    subs: 
+  - id: 1000077
+    name: 艾玛皇家学院
+    isGroup: false
+    subs: 
+  - id: 1000073
+    name: 艾玛认证通讯社
+    isGroup: false
+    subs: 
+  - id: 1000088
+    name: 萨拉姆家族
+    isGroup: false
+    subs: 
+  - id: 1000227
+    name: 行军之王
+    isGroup: false
+    subs: 
+  - id: 1000165
+    name: 赫迪农大学
+    isGroup: false
+    subs: 
+  - id: 1000231
+    name: 辛迪加联合会
+    isGroup: false
+    subs: 
+  - id: 1000076
+    name: 长足食品
+    isGroup: false
+    subs: 
+  - id: 1000226
+    name: 阿梅特保安军
+    isGroup: false
+    subs: 
+  - id: 1000090
+    name: 阿狄莎波家族
+    isGroup: false
+    subs: 
+  - id: 1000068
+    name: 高尚用具公司
+    isGroup: false
+    subs: 
+3:
+  id: 3
+  name: '盖伦特联邦 '
+  isGroup: true
+  subs:
+  - id: 1000105
+    name: 促进工业
+    isGroup: false
+    subs: 
+  - id: 1000115
+    name: 凯勒大学
+    isGroup: false
+    subs: 
+  - id: 1000108
+    name: 切玛科技
+    isGroup: false
+    subs: 
+  - id: 1000114
+    name: 加罗恩投资银行
+    isGroup: false
+    subs: 
+  - id: 1000117
+    name: 参议院
+    isGroup: false
+    subs: 
+  - id: 1000111
+    name: 埃拉斯多集团
+    isGroup: false
+    subs: 
+  - id: 1000099
+    name: 复合收割
+    isGroup: false
+    subs: 
+  - id: 1000222
+    name: 奥斯机构
+    isGroup: false
+    subs: 
+  - id: 1000216
+    name: 库拉克斯特别行动队
+    isGroup: false
+    subs: 
+  - id: 1000109
+    name: 度沃勒实验室
+    isGroup: false
+    subs: 
+  - id: 1000249
+    name: 康罗指挥部
+    isGroup: false
+    subs: 
+  - id: 1000113
+    name: 彭德保险
+    isGroup: false
+    subs: 
+  - id: 1000116
+    name: 总统团队
+    isGroup: false
+    subs: 
+  - id: 1000098
+    name: 星形矿业
+    isGroup: false
+    subs: 
+  - id: 1000247
+    name: 查特林快速反应部队
+    isGroup: false
+    subs: 
+  - id: 1000112
+    name: 泛光银行
+    isGroup: false
+    subs: 
+  - id: 1000094
+    name: 泛星船运
+    isGroup: false
+    subs: 
+  - id: 1000104
+    name: 波特克制药
+    isGroup: false
+    subs: 
+  - id: 1000250
+    name: 洛维诺佣兵团
+    isGroup: false
+    subs: 
+  - id: 1000097
+    name: 物资集团
+    isGroup: false
+    subs: 
+  - id: 1000096
+    name: 短途物流
+    isGroup: false
+    subs: 
+  - id: 1000243
+    name: 纳姆达精英
+    isGroup: false
+    subs: 
+  - id: 1000217
+    name: 维洛勒安全行动队
+    isGroup: false
+    subs: 
+  - id: 1000121
+    name: 联邦情报处
+    isGroup: false
+    subs: 
+  - id: 1000285
+    name: 联邦战略军需处
+    isGroup: false
+    subs: 
+  - id: 1000119
+    name: 联邦政府部
+    isGroup: false
+    subs: 
+  - id: 1000118
+    name: 联邦最高法院
+    isGroup: false
+    subs: 
+  - id: 1000122
+    name: 联邦海关局
+    isGroup: false
+    subs: 
+  - id: 1000120
+    name: 联邦海军
+    isGroup: false
+    subs: 
+  - id: 1000168
+    name: 联邦海军学院
+    isGroup: false
+    subs: 
+  - id: 1000262
+    name: 联邦海军陆战队
+    isGroup: false
+    subs: 
+  - id: 1000095
+    name: 联邦货运局
+    isGroup: false
+    subs: 
+  - id: 1000181
+    name: 联邦防务联合会
+    isGroup: false
+    subs: 
+  - id: 1000106
+    name: 自尊集团
+    isGroup: false
+    subs: 
+  - id: 1000248
+    name: 艾迪姆战士
+    isGroup: false
+    subs: 
+  - id: 1000102
+    name: 莱登船业
+    isGroup: false
+    subs: 
+  - id: 1000101
+    name: 西顿工业
+    isGroup: false
+    subs: 
+  - id: 1000107
+    name: 视角传媒
+    isGroup: false
+    subs: 
+  - id: 1000100
+    name: 酷菲集团
+    isGroup: false
+    subs: 
+  - id: 1000246
+    name: 金纳泽近卫队
+    isGroup: false
+    subs: 
+  - id: 1000215
+    name: 阿根塔之核
+    isGroup: false
+    subs: 
+  - id: 1000103
+    name: 阿洛特工业
+    isGroup: false
+    subs: 
+  - id: 1000245
+    name: 雷瑟夫星际战略
+    isGroup: false
+    subs: 
+  - id: 1000110
+    name: 飞马集团
+    isGroup: false
+    subs: 
+  - id: 1000244
+    name: 马纳尔战斗团
+    isGroup: false
+    subs: 
+  - id: 1000169
+    name: 高级教育中心
+    isGroup: false
+    subs: 
+4:
+  id: 4
+  name: '朱庇特帝国 '
+  isGroup: true
+  subs:
+  - id: 1000178
+    name: 战争行为学院
+    isGroup: false
+    subs: 
+  - id: 1000155
+    name: 昌隆集团
+    isGroup: false
+    subs: 
+  - id: 1000150
+    name: 朱庇特内议会
+    isGroup: false
+    subs: 
+  - id: 1000149
+    name: 朱庇特海军
+    isGroup: false
+    subs: 
+  - id: 1000177
+    name: 材料学院
+    isGroup: false
+    subs: 
+  - id: 1000158
+    name: 锋锐工业
+    isGroup: false
+    subs: 
+5:
+  id: 5
+  name: '统一合作关系部 (统合部) '
+  isGroup: true
+  subs:
+  - id: 1000137
+    name: DED
+    isGroup: false
+    subs: 
+  - id: 1000143
+    name: 协约理事会
+    isGroup: false
+    subs: 
+  - id: 1000279
+    name: 发现计划
+    isGroup: false
+    subs: 
+  - id: 1000132
+    name: 商业安全委员会
+    isGroup: false
+    subs: 
+  - id: 1000282
+    name: 指令情报处
+    isGroup: false
+    subs: 
+  - id: 1000281
+    name: 独立竞技委员会
+    isGroup: false
+    subs: 
+  - id: 1000125
+    name: 统一合作关系部
+    isGroup: false
+    subs: 
+  - id: 1000280
+    name: 统合部航天局
+    isGroup: false
+    subs: 
+6:
+  id: 6
+  name: '艾玛达共和国 '
+  isGroup: true
+  subs:
+  - id: 1000154
+    name: 内凡达矿业协会
+    isGroup: false
+    subs: 
+  - id: 1000123
+    name: 艾玛达舰队
+    isGroup: false
+    subs: 
+  - id: 1000126
+    name: 艾玛达领事馆
+    isGroup: false
+    subs: 
+7:
+  id: 7
+  name: '卡尼迪王国 '
+  isGroup: true
+  subs:
+  - id: 1000151
+    name: 卡尼迪创新集团
+    isGroup: false
+    subs: 
+  - id: 1000153
+    name: 卡尼迪工作室
+    isGroup: false
+    subs: 
+  - id: 1000156
+    name: 卡尼迪皇家海军
+    isGroup: false
+    subs: 
+  - id: 1000152
+    name: 卡尼迪运输
+    isGroup: false
+    subs: 
+8:
+  id: 8
+  name: '辛迪加财团 '
+  isGroup: true
+  subs:
+  - id: 1000145
+    name: 印塔基商业局
+    isGroup: false
+    subs: 
+  - id: 1000146
+    name: 印塔基空间警察局
+    isGroup: false
+    subs: 
+  - id: 1000147
+    name: 印塔基联合财团
+    isGroup: false
+    subs: 
+  - id: 1000144
+    name: 印塔基银行
+    isGroup: false
+    subs: 
+9:
+  id: 9
+  name: 古斯塔斯海盗
+  isGroup: true
+  subs:
+  - id: 1000141
+    name: 古斯塔斯制造
+    isGroup: false
+    subs: 
+  - id: 1000127
+    name: 古斯塔斯集团
+    isGroup: false
+    subs: 
+10:
+  id: 10
+  name: '天使企业联合体 '
+  isGroup: true
+  subs:
+  - id: 1000138
+    name: 主天使集团
+    isGroup: false
+    subs: 
+  - id: 1000124
+    name: 大天使集团
+    isGroup: false
+    subs: 
+  - id: 1000136
+    name: 守护天使集团
+    isGroup: false
+    subs: 
+  - id: 1000133
+    name: 救赎天使集团
+    isGroup: false
+    subs: 
+11:
+  id: 11
+  name: '血袭者同盟 '
+  isGroup: true
+  subs:
+  - id: 1000134
+    name: 血袭者
+    isGroup: false
+    subs: 
+12:
+  id: 12
+  name: '星际快捷客运联合体 '
+  isGroup: true
+  subs:
+  - id: 1000148
+    name: 星捷运
+    isGroup: false
+    subs: 
+13:
+  id: 13
+  name: '联合矿业 '
+  isGroup: true
+  subs:
+  - id: 1000271
+    name: 外太空联合勘探
+    isGroup: false
+    subs: 
+  - id: 1000270
+    name: 外空联合开发
+    isGroup: false
+    subs: 
+  - id: 1000129
+    name: 外空联合矿业集团
+    isGroup: false
+    subs: 
+  - id: 1000276
+    name: 联合矿业科技
+    isGroup: false
+    subs: 
+  - id: 1000277
+    name: 霜线实验室
+    isGroup: false
+    subs: 
+14:
+  id: 14
+  name: '图克尔部落 '
+  isGroup: true
+  subs:
+  - id: 1000163
+    name: 信任伙伴集团
+    isGroup: false
+    subs: 
+  - id: 1000160
+    name: 图克尔混合企业
+    isGroup: false
+    subs: 
+15:
+  id: 15
+  name: '姐妹共济会 '
+  isGroup: true
+  subs:
+  - id: 1000130
+    name: 姐妹会
+    isGroup: false
+    subs: 
+  - id: 1000139
+    name: 粮食救济会
+    isGroup: false
+    subs: 
+  - id: 1000159
+    name: 避难会
+    isGroup: false
+    subs: 
+16:
+  id: 16
+  name: '真理会 '
+  isGroup: true
+  subs:
+  - id: 1000142
+    name: 印普罗集团
+    isGroup: false
+    subs: 
+  - id: 1000140
+    name: 格鲁汀集团
+    isGroup: false
+    subs: 
+  - id: 1000131
+    name: 理性思维社团
+    isGroup: false
+    subs: 
+  - id: 1000164
+    name: 超感集团
+    isGroup: false
+    subs: 
+17:
+  id: 17
+  name: '莫德团 '
+  isGroup: true
+  subs:
+  - id: 0
+    name: '莫德军团 '
+    isGroup: false
+    subs: 
+18:
+  id: 18
+  name: '萨沙共和国 '
+  isGroup: true
+  subs:
+  - id: 1000162
+    name: 实力派
+    isGroup: false
+    subs: 
+  - id: 1000161
+    name: 忠实制造
+    isGroup: false
+    subs: 
+19:
+  id: 19
+  name: 天蛇集团
+  isGroup: true
+  subs:
+  - id: 1000135
+    name: 天蛇集团
+    isGroup: false
+    subs: 
+  - id: 1000157
+    name: 天蛇集团调查处
+    isGroup: false
+    subs: 
+20:
+  id: 20
+  name: '三神裔 '
+  isGroup: true
+  subs:
+  - id: 1000298
+    name: 三神避世会
+    isGroup: false
+    subs: 
+  - id: 1000292
+    name: 暗泽裔演化枝
+    isGroup: false
+    subs: 
+  - id: 1000294
+    name: 熔火裔演化枝
+    isGroup: false
+    subs: 
+  - id: 1000288
+    name: 纳夫卡主宰
+    isGroup: false
+    subs: 
+  - id: 1000293
+    name: 雷电裔演化枝
+    isGroup: false
+    subs: 
+21:
+  id: 21
+  name: '伊甸联合防御阵线 '
+  isGroup: true
+  subs:
+  - id: 1000297
+    name: 统合部紧急干预和安全局
+    isGroup: false
+    subs: 
