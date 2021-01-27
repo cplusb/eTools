@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6DD31805-AE01-4B78-8713-42764AB48A03}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>eTools</RootNamespace>
+    <AssemblyName>eTools</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>eTools.App</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HZH_Controls">
+      <HintPath>C:\Users\FESTO_LX02\Downloads\kwwwvagaa-net_winform_custom_control-master\net_winform_custom_control\HZH_Controls\HZH_Controls\bin\Debug\HZH_Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\MarketManager\MarketManager\ExternalPlugIns\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WindowsFormsIntegration" />
+    <Reference Include="YamlDotNet, Version=9.0.0.0, Culture=neutral, PublicKeyToken=ec19458f3c15af5e, processorArchitecture=MSIL">
+      <HintPath>packages\YamlDotNet.9.1.0\lib\net45\YamlDotNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Command\LpFilterCmd.cs" />
+    <Compile Include="Command\Manager\SwitchLayoutCmd.cs" />
+    <Compile Include="Command\Query\QueryLpCmd.cs" />
+    <Compile Include="Command\Query\QueryMarketGroupCmd.cs" />
+    <Compile Include="Datas\Blueprints.cs" />
+    <Compile Include="Datas\JsonFormat\JsonFormatTypeIDs.cs" />
+    <Compile Include="Datas\LpItems.cs" />
+    <Compile Include="Datas\Multilingual.cs" />
+    <Compile Include="Datas\MarketGroups.cs" />
+    <Compile Include="Datas\NpcCorporationNode.cs" />
+    <Compile Include="Datas\NpcCorporations.cs" />
+    <Compile Include="Global\Const.cs" />
+    <Compile Include="Global\Filter.cs" />
+    <Compile Include="Global\RegionGalaxy.cs" />
+    <Compile Include="Global\Signal.cs" />
+    <Compile Include="Global\Tax.cs" />
+    <Compile Include="HZ_Blueprints\BlueprintsMindMapping.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Manager\LocalConfigLoadManager.cs" />
+    <Compile Include="Manager\Notice\StatusManager.cs" />
+    <Compile Include="Manager\RegionGalaxyManager.cs" />
+    <Compile Include="Datas\TypeIDs.cs" />
+    <Compile Include="Manager\SortManager\ListViewSort.cs" />
+    <Compile Include="Manager\Web\HttpRequestManager.cs" />
+    <Compile Include="Manager\XamlComponentsManager.cs" />
+    <Compile Include="Model\DataSources\ItemTypeFilter.cs" />
+    <Compile Include="Model\DataSources\RegionGalaxy.cs" />
+    <Compile Include="Model\DataSources\ItemType.cs" />
+    <Compile Include="Model\DataSources\StatusMsg.cs" />
+    <Compile Include="Model\Filter\LPFilter.cs" />
+    <Compile Include="Datas\MarketGroupNode.cs" />
+    <Compile Include="Model\Query\QueryLpGroup.cs" />
+    <Compile Include="Model\Query\QueryMarketGroup.cs" />
+    <Compile Include="Tools\Copy.cs" />
+    <Compile Include="Tools\Excel.cs" />
+    <Compile Include="Tools\Extern.cs" />
+    <Compile Include="Tools\Format.cs" />
+    <Compile Include="Tools\FPS.cs" />
+    <Compile Include="Tools\Json.cs" />
+    <Compile Include="Tools\ReflectionHelper.cs" />
+    <Compile Include="Tools\Xml.cs" />
+    <Compile Include="Tools\Yaml.cs" />
+    <Compile Include="ViewModel\DataSources\ItemTypeFilterVM.cs" />
+    <Compile Include="ViewModel\DataSources\ItemTypeVM.cs" />
+    <Compile Include="Manager\LayoutSwitchManager.cs" />
+    <Compile Include="ViewModel\DataSources\LpGroupRegionGalaxyVM.cs" />
+    <Compile Include="ViewModel\DataSources\MarketGroupRegionGalaxyVM.cs" />
+    <Compile Include="ViewModel\DataSources\StatusMsgVM.cs" />
+    <Compile Include="ViewModel\Filter\LPFilterVM.cs" />
+    <Compile Include="ViewModel\Manager\SwitchLayoutVM.cs" />
+    <Compile Include="ViewModel\Query\QueryLpGroupVM.cs" />
+    <Compile Include="ViewModel\Query\QueryMarketGroupVM.cs" />
+    <Compile Include="ViewModel\Tax\TaxVM.cs" />
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\bg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\icon11_key.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\icon12_search.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\icon13_market.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\icon14_lp.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\icon15_mineral.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\icon16_contract.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\icon17_manufacturing.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="packages\FastReport.Compat.2020.4.2\build\FastReport.Compat.targets" Condition="Exists('packages\FastReport.Compat.2020.4.2\build\FastReport.Compat.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>这台计算机上缺少此项目引用的 NuGet 程序包。使用“NuGet 程序包还原”可下载这些程序包。有关更多信息，请参见 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\FastReport.Compat.2020.4.2\build\FastReport.Compat.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\FastReport.Compat.2020.4.2\build\FastReport.Compat.targets'))" />
+  </Target>
+</Project>
