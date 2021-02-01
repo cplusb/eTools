@@ -58,6 +58,11 @@ namespace eTools.Manager
         /// </summary>
         /// <param name="blueprints"></param>
         public static void OnReadYamlFinished_NewBlueprintsGroup(Dictionary<int, NewBuleprints> blueprints) => AddConfigClass(new NewBuleprintsDBClass(blueprints));
+        /// <summary>
+        /// 存放物品精炼数据库
+        /// </summary>
+        /// <param name="blueprints"></param>
+        public static void OnReadYamlFinished_TypeMaterials(Dictionary<int, TypeMaterials> typeMaterials) => AddConfigClass(new TypeMaterialsDBClass(typeMaterials));
 
         /// <summary>
         /// 保存数据
@@ -514,7 +519,11 @@ namespace eTools.Manager
         public Dictionary<int, NewBuleprints> Blueprints { get; set; }
         public NewBuleprintsDBClass(Dictionary<int, NewBuleprints> blueprints) => Blueprints = blueprints;
     }
-
+    public class TypeMaterialsDBClass : ConfigClass
+    {
+        public Dictionary<int, TypeMaterials> TypeMaterials { get; set; }
+        public TypeMaterialsDBClass(Dictionary<int, TypeMaterials> typeMaterials) => TypeMaterials = typeMaterials;
+    }
     public class RegionGalaxyDBClass : ConfigClass
     {
         private Dictionary<int, Region> _regionsDict;

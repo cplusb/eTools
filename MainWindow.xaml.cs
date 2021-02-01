@@ -75,11 +75,8 @@ namespace eTools
 
         private void BtnClick_Test(object sender, RoutedEventArgs e)
         {
-            // LocalConfigLoadManagerAssist.ReadYaml_FilterToNewBlueprints();
-            // LocalConfigLoadManager.SS(12016);
-          //  LocalConfigLoadManagerAssist.ReadYaml_FilterToNewBlueprints();
-             
-            //HZ.AAA.S(this.ManufactPanel);
+            var co = LocalConfigLoadManager.GetConfigClass<TypeMaterialsDBClass>().TypeMaterials.Count;
+            MessageBox.Show(co.ToString());
         }
 
         /// <summary>
@@ -130,6 +127,8 @@ namespace eTools
             LocalConfigLoadManager.ReadYaml<List<Model.DataSources.Region>>("Resources/regionGalaxy.yaml", LocalConfigLoadManager.OnReadYamlFinished_RegionGalaxy);
             LocalConfigLoadManager.ReadYaml<Dictionary<int, NewNpcCorporations>>("Resources/newNpcCorporations.yaml", LocalConfigLoadManager.OnReadYamlFinished_NewNpcCorpGroup);
             LocalConfigLoadManager.ReadYaml<Dictionary<int, NewBuleprints>>("Resources/newBlueprints.yaml", LocalConfigLoadManager.OnReadYamlFinished_NewBlueprintsGroup);
+            LocalConfigLoadManager.ReadYaml<Dictionary<int, TypeMaterials>>("Resources/typeMaterials.yaml", LocalConfigLoadManager.OnReadYamlFinished_TypeMaterials);
+           
             LayoutSwitchManager.GetManager()?.Init();
 
            
